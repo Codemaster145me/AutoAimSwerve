@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/Codemaster145me/AutoAim.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "Auto-Aim-Swerve"]
+	remote = origin
+	merge = refs/heads/Auto-Aim-Swerve
+[pull]
+	rebase = false
